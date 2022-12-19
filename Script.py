@@ -1,20 +1,18 @@
 class script(object):
-    START_TXT = """𝙷𝙴𝙻𝙻𝙾 {}, 𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 Kakashi Bot, 𝙸 𝙰𝙼 𝙰𝙽 sɪᴍᴘʟᴇ 𝙰𝚄𝚃𝙾-𝙵𝙸𝙻𝚃𝙴𝚁 𝙱𝙾𝚃. 𝚈𝙾𝚄 𝙲𝙰𝙽 𝚄𝚂𝙴 𝙼𝙴 𝙾𝙽 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿. 𝙰𝙳𝙳 𝙼𝙴 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽..!"""
+    START_TXT = """𝙷𝙴𝙻𝙻𝙾 {}, 𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/Kakashi_MovieBot>Kakashi Bot</a>, 𝙸 𝙰𝙼 𝙰𝙽 sɪᴍᴘʟᴇ 𝙰𝚄𝚃𝙾-𝙵𝙸𝙻𝚃𝙴𝚁 𝙱𝙾𝚃. 𝚈𝙾𝚄 𝙲𝙰𝙽 𝚄𝚂𝙴 𝙼𝙴 𝙾𝙽 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿. 𝙰𝙳𝙳 𝙼𝙴 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽..!"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
-    ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ : {}</b>
-
-<b>✯ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/Raj_Xission>᙭IՏՏIOᑎ</a></b>
-
-<b>✯ Uᴘᴅᴀᴛᴇs : <a href=https://t.me/XissionBots>Bot Updates</a></b>
-
-<b>✯ Mᴏᴠɪᴇs Cʜᴀɴɴᴇʟ : <a href=https://t.me/NoNStopMoviez4U>NoNStopMoviez4U</a></b>
-
-
-<b>✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ2.0.62 [Sᴛᴀʙʟᴇ]</b>"""
+    ABOUT_TXT = """<b>✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: @Xission_Bot</b>
+<b>✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/Raj_Xission>X¡ss¡øn</a></b>
+<b>✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</b>
+<b>✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹</b>
+<b>✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾-𝙳𝙱</b>
+<b>✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄</b>
+<b>✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: 𝚅1.0.43</b>
+<b>✯ 𝚄𝙿𝙳𝙰𝚃𝙴𝚂: <a href=https://t.me/XissionBots>Xission Bots</a></b>"""
 
     SOURCE_TXT ="""
 <b>Tʜɪꜱ Bᴏᴛ Iꜱ Aɴ Oᴘᴇɴ Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ.
