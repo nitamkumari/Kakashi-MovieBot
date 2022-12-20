@@ -431,7 +431,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
+                          InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url=GRP_LNK),
                           InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                        ]
                         ]
@@ -476,7 +476,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                  InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
+                  InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url=GRP_LNK),
                   InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                ]
                 ]
@@ -555,7 +555,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('ʀᴇᴘᴏʀᴛ ʙᴜɢs & ꜰᴇᴇᴅʙᴀᴄᴋ', url=GRP_LNK)
         ],[
-            InlineKeyboardButton('ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ', url="https://t.me/cynitebackup")
+            InlineKeyboardButton('ᴍᴏᴠɪᴇs ᴄʜᴀɴɴᴇʟ', url="https://t.me/NoNStopMoviez4U")
         ],[
             InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data')
@@ -718,10 +718,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
     elif query.data == "cynite_cnl":
             cnlbtn = [[
-                      InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='t.me/CyniteBackup')
+                      InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='t.me/NoNStopMoviez4U')
                      ], [
-                      InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='t.me/Cynitesupport'),
-                      InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='t.me/cynitebackup')
+                      InlineKeyboardButton('ɢʀᴏᴜᴘ', url='t.me/NoNStopFilmz'),
+                      InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='t.me/XissionBots')
                      ], [
                       InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start")
                      ]]
